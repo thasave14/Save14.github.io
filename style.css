@@ -1,4 +1,11 @@
-@import url(https://db.onlinewebfonts.com/c/4c1241f9ac3623218d475209aa4a3426?family=Cocon);
+@font-face {
+    font-family: 'coconbold';
+    src: url('cocon-bold-font-webfont.woff2') format('woff2'),
+         url('cocon-bold-font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #navbar {
     overflow: hidden;
     
