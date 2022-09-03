@@ -111,3 +111,11 @@ h2 {
     flex-direction: column;
     user-select: none;
 }
+#subscriberCountA {
+    width: 273px;
+    top: calc(100% - 50px);
+    border-radius: 7px;
+    padding: 5px;
+    margin: 70px;
+    user-select: none;
+}
