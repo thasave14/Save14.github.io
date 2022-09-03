@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap');
+nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    margin-top: 5px;
+    border-radius: 10px;
+    margin: 0px;
+    background-color: rgb(24, 24, 24);
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+}
+#logo {
+    width: 60px;
+    margin-left: 15px;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+#logo:hover {
+    width: 67px;
+    margin-top: 0px;
+    margin-left: 15px;
+    transition: 0.2s;
+}
+.navSection {
+    text-decoration: none;
+    color: white;
+    width: 15px;
+    display: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    font-weight: bold;
+    transition: 0.2s;
+    user-select: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.navSection:hover {
+    color: red;
+    width: 5px;
+    transition: 0.2s;
+    user-select: none;
+    cursor: pointer;
+}
+div {
+    text-decoration: none;
+    font-family: 'Baloo Paaji 2', cursive;
+    color: white;
+}
+body {
+    background-color: rgb(37, 40, 46);
+}
+#storiaContainer {
+    position: absolute;
+    display: flex;
+    border-radius: 10px;
+
+    top: 100px;
+    width: 99%;
+    background-color: royalblue;
+}
+#storia {
+    margin: 30px;
+    margin-right: 10px;
+}
+.social {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: grey;
+    width: 400px;
+    margin-top: 10px;
+}
+.social div {
+    margin: 10px;
+}
+.social img {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+.social:hover {
+    background-color: rgb(27, 152, 152);
+    cursor: pointer;
+    user-select: none;
+}
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#subscriberCount {
+    background-color: red;
+    width: 273px;
+    top: calc(100% - 50px);
+    border-radius: 7px;
+    padding: 5px;
+    margin: 70px;
+    user-select: none;
+}
+.socialsContainer {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+}
