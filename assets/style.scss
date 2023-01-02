@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap');
+
+@media (min-width: 768px) {
+    nav {
+        background: #0D1117;
+        float: left;
+        height: 100%;
+        width: 72px;
+        
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        gap: 15px; 
+        padding-top: 12px;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    nav a {
+        display: block;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%; 
+        background: #0e141d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        
+        transition: border-radius 250ms, background 250ms;
+    }
+    nav hr {
+        display: block;
+        width: 32px;
+        height: 2px;
+        border-radius: 196px;
+        border: none; 
+        background: #0e141d;
+        margin: 0;
+    }
+}
+
+@media (pointer:none), (pointer:coarse) {
+
+  nav {
+    background: #0D1117;
+    float: left;
+    height: 72px;
+    width: 100%;
+    
+    display: flex; 
+    align-items: center; 
+    gap: 15px; 
+    padding-top: 12px;
+  
+    /* always show on screen */
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+    /* make it a row */
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: auto;
+  
+    /* move to the bottom */
+    bottom: 0;
+    top: auto;
+    
+  
+  }
+  
+  nav a {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%; 
+    background: #0e141d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    transition: border-radius 250ms, background 250ms;
+  }
+  
+  nav hr {
+    display: block;
+    width: 0px;
+    height: 32px;
+    border-radius: 196px;
+    border: none; 
+    background: #0e141d;
+    margin: 0;
+  }
+  
+}
+
+
+
+nav .x {
+  margin-top: auto;
+  margin-bottom: 15px;
+}
+
+nav a:hover,
+nav a.active {
+  border-radius: 25%;
+  background: red;
+}
+a {
+    text-decoration: none;
+}
+#logo {
+    width: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+div {
+    text-decoration: none;
+    font-family: 'Baloo Paaji 2';
+    color: white;
+}
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #010409;
+  align-items: center;
+  justify-self: center;
+}
+#storia {
+    width: 50%;
+    margin-left: 150px;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.social {
+    align-items: center;
+    background: #0D1117;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    margin: 15px;
+}
+.social div {
+    background: #0D1117;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    margin: 15px;
+}
+.social img {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#subscriberCount {
+    background-color: red;
+    width: 273px;
+    top: calc(100% - 50px);
+    border-radius: 7px;
+    padding: 5px;
+    margin: 70px;
+    user-select: none;
+}
+.socialsContainer {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+}
+#subscriberCountA {
+    width: 273px;
+    top: calc(100% - 50px);
+    border-radius: 7px;
+    padding: 5px;
+    margin: 70px;
+    user-select: none;
+}
+#xyz {
+    margin-left: 100px;
+    margin-top: 25px;
+}
